@@ -2,9 +2,7 @@
 
 > Validate EU Vat Numbers with a valid German VAT Number
 
-Uses the official API from the [Bundeszentralamt für Steuern](https://evatr.bff-online.de/eVatR/index_html).
-
-It has a simple and qualified Check. This [Status Code](https://evatr.bff-online.de/eVatR/xmlrpc/codes) are always `200` even if other params don't match in the qualified check
+Uses the official API from the [Bundeszentralamt für Steuern](https://evatr.bff-online.de/eVatR/index_html). It has a simple and qualified Check. In the qualified check the [Status Code](https://evatr.bff-online.de/eVatR/xmlrpc/codes) might be `200` even if other params don't match.
 
 ## Install
 
